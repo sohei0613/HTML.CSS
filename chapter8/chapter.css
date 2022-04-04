@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  width: 960px;
+  margin: 50px auto;
+}
+.item-list{
+  margin-bottom: 50px;
+}
+.item{
+  padding: 20px;
+  list-style: none;
+}
+.item:nth-child(odd){
+  background-color: red;
+}
